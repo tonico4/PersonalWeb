@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fefae077;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    height: 3em;
+    background-color: #CCD5AE;
+}
+
+h1, p {
+    color: #8b6b4a;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+.menu {
+    display: flex;
+}
+
+.menubtn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    width: 2em;
+    height: 2em;
+}
+
+.menubtn img {
+    width: auto;
+    height: 100%;
+}
+
+.navtoggle {
+    background-color: #E9EDC9;
+    border-top: 1px dotted #8b6b4a;
+    display: none;
+}
+
+.navtoggle.active {
+    display: block;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+}
+
+.navtoggle li {
+    list-style: none;
+}
+
+.navtoggle .menuitem {
+    text-decoration: none;
+    color: #8b6b4a;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.bio {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.me {
+    width: 10em;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+.bio p {
+    font-size: 1rem;
+}
+
+#claim {
+    padding-top: 1em;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* tablets landscape and mini laptops */
+@media screen and (min-width: 640px) {}
+
+/* PC  */
+@media screen and (min-width: 992px) {}

@@ -95,6 +95,15 @@ ul {
     font-size: 2rem;
 }
 
+.tech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    border-top: 1px dotted #8b6b4a;
+    gap: 1em;
+}
+
 /* tablets landscape and mini laptops */
 @media screen and (min-width: 640px) {}
 

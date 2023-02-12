@@ -9,3 +9,5 @@ btn.addEventListener('click', () => {
 window.addEventListener('scroll', () => {
     nav.classList.toggle('fixed', window.scrollY > 0);
 })
+
+alert("Esta web está en desarrollo, de momento solo está actualizada para versión mobile.")
